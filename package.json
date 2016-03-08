@@ -1,0 +1,17 @@
+{
+  "name": "slackmusiclinkbot",
+  "version": "0.1.0",
+  "description": "A bot for Slack which scrapes for Spotify and Google Play Music links in chat, and uses match.audio to provide service links to the song.",
+  "main": "bot.js",
+  "dependencies": {
+    "botkit": "0.0.7",
+    "cheerio": "^0.20.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Connor Bell - Makeshift",
+  "license": "ISC"
+}
