@@ -85,6 +85,11 @@ function requestPage(matchLink, callback) {
         eval(fs.readFileSync('fortunelady.js')+'');
         bot.reply(message, "_The Old Lady consults her crystal ball, and says:_\n>"+possibleFortunes[Math.floor(Math.random() * possibleFortunes.length)]);
     });
+    //Catchphrases
+    controller.hears("!catchphrase", ["direct_mention", "mention", "ambient"], function (bot, message) {
+        eval(fs.readFileSync('catchphrases.js')+'');
+        bot.reply(message, "_The Old Lady exclaims:_\n>"+catchphrases[Math.floor(Math.random() * catchphrases.length)]);
+    });
     //Helpers
     String.prototype.capFirst = function () {
         return this.charAt(0).toUpperCase() + this.slice(1);

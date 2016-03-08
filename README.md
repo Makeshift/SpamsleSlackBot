@@ -16,3 +16,6 @@ Type `!ball <question>` and get a response.
 
 ## Fortune Cookie
 Type `!fortune` to get your fortune.
+
+## Random Catchphrases
+Type `!catchphrase` for a random cool catchphrase.
