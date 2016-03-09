@@ -27,4 +27,8 @@ var catchphrases = ["I'm too old for this shit",
 "Is it because I is black?",
 "Life? Dont talk to me about Life!",
 "I'M A WHALE",
-"IT's OVER NINE THOUSAND"]
+"IT's OVER NINE THOUSAND",
+"We've got so many dead bodies we're hanging 'em from the ceiling!",
+"I'M BLUE DABADEE DABADY DA-BA-DEEE DA-BA DY",
+"Ya nan",
+"420swag"]

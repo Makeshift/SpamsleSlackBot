@@ -20,7 +20,6 @@ var possibleAnswers = [
     "My sources say no.",
     "The outlook is not so good.",
     "Very doubtful",
-    "Irrelevant, Ben sucks.",
     "There is no spoon.",
     "You will have to wait.",
     "Are you kidding?",
